@@ -36,6 +36,14 @@
     .header__sort-bar {
         display: flex;
     }
+
+    .container__content {
+        padding-top: 8px;
+    }
+
+    .mobile-category {
+        display: block;
+    }
 }
 
 /* Tablet */
@@ -108,5 +116,32 @@
         width: 100%;
         left: 0;
         box-shadow: 0 1px 2px rgb(0 0 0 / 5%);
+    }
+
+    .pagination-item {
+        margin: 0;
+    }
+
+    .pagination-item__link {
+        --height: 28px;
+        font-size: 1.6rem;
+        min-width: 36px;
+
+    }
+
+    .container__content {
+        margin: 0 4px;
+    }
+
+    .search__mobile-search {
+        display: block;
+    }
+
+    .search__logo-img {
+        width: 110px;
+    }
+
+    .footer__content {
+        padding: 0 16px;
     }
 }
