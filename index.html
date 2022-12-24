@@ -112,9 +112,9 @@
                                     Trợ giúp
                                 </a>
                             </li>
-                            <!-- <li class="navbar__item navbar__item--strong navbar__item--separate">Đăng ký</li>
-                            <li class="navbar__item navbar__item--strong">Đăng nhập</li> -->
-                            <li class="navbar__item navbar__user">
+                            <li class="navbar__item navbar__item--strong navbar__item--separate js-navbar__register">Đăng ký</li>
+                            <li class="navbar__item navbar__item--strong js-navbar__login">Đăng nhập</li>
+                            <li class="navbar__item navbar__user close">
                                 <img src="./assets/img/user_avt.jpg" alt="" class="navbar__user-avt">
                                 <span class="navbar__user-name">Thành Long</span>
 
@@ -924,16 +924,16 @@
         </div>
 
         <!-- Modal layout -->
-        <div class="modal close">
-            <div class="modal__overlay"></div>
+        <div class="modal js-modal close">
+            <div class="modal__overlay js-modal__overlay"></div>
 
             <div class="modal__body">
                 <!-- Register form -->
-                <div class="auth-form auth-register close">
+                <div class="auth-form auth-register js-auth-register close">
                     <div class="auth-form__container">
                         <div class="auth-form__header">
                             <h3 class="auth-form__heading">Đăng ký</h3>
-                            <span class="auth-form__switch-btn">Đăng nhập</span>
+                            <span class="auth-form__switch-btn js-auth-form__switch-btn">Đăng nhập</span>
                         </div>
 
                         <div class="auth-form__form">
@@ -957,7 +957,7 @@
                         </div>
 
                         <div class="auth-form__controls">
-                            <button class="btn btn--normal auth-form__controls-back">TRỞ LẠI</button>
+                            <button class="btn btn--normal auth-form__controls-back js-auth-form__controls-back">TRỞ LẠI</button>
                             <button class="btn btn--primary">ĐĂNG KÝ</button>
                         </div>
                     </div>
@@ -975,11 +975,11 @@
                 </div>
 
                 <!-- Login form -->
-                <div class="auth-form auth-login">
+                <div class="auth-form auth-login js-auth-login close">
                     <div class="auth-form__container">
                         <div class="auth-form__header">
                             <h3 class="auth-form__heading">Đăng nhập</h3>
-                            <span class="auth-form__switch-btn">Đăng ký</span>
+                            <span class="auth-form__switch-btn js-auth-form__switch-btn">Đăng ký</span>
                         </div>
 
                         <div class="auth-form__form">
@@ -1000,7 +1000,7 @@
                         </div>
 
                         <div class="auth-form__controls">
-                            <button class="btn btn--normal auth-form__controls-back">TRỞ LẠI</button>
+                            <button class="btn btn--normal auth-form__controls-back js-auth-form__controls-back">TRỞ LẠI</button>
                             <button class="btn btn--primary">ĐĂNG NHẬP</button>
                         </div>
                     </div>
