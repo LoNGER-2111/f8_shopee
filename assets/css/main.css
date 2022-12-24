@@ -1086,6 +1086,7 @@
     margin-right: 12px;
     min-width: 90px;
     box-shadow: 0 1px 1px 0 rgb(0 0 0 / 2%);
+    transition: background-color linear 0.05s;
 }
 
 .home-filter__page-num {
